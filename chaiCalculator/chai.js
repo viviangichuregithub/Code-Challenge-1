@@ -4,7 +4,7 @@ function calculateChaiIngredients(numberOfChaiCups) {
     const majani = 1 * numberOfChaiCups;
     const sukari = 2 * numberOfChaiCups; 
 
-//this is what will display on the console after the user enters the number o cups needed to be made  
+//this is what will display the results in the console
 console.log(`To make ${numberOfChaiCups} cups of Chai, unahitaji:`);
     console.log(`${water} ml of water`);
     console.log(`${milk} ml of milk`);

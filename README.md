@@ -4,14 +4,15 @@ A collection of  JavaScript challenges designed to strengthen programming logic,
 
 ## Table of Contents
 
-- Challenge 1: Chai Calculator
-- Challenge 2: Boda Fare Estimator
-- Challenge 3: Mobile Money Fee Estimator
+- Chai Calculator
+- Boda Fare Estimator
+- Mobile Money Fee Estimator
+- Project Setup
 - Technologies Used
 - Author
 
 
-## Challenge 1: Chai Calculator
+## Chai Calculator
 
 This challange helps calculate the exact ingredients needed to prepare a given number of cups of
 chai (tea). It is designed to prompt the user for input (the amout of cups that they want to make) ,
@@ -41,7 +42,7 @@ Prompts : Karibu! How many cups of Tea would you like to make? (3)the user input
 - Karibu chai
 
 
-## Challenge 2: Boda Fare Calculator
+## Boda Fare Calculator
 
 This challenge helps estimate how much it would cost to travel by Boda Boda (motorbike taxi) based on the distance entered by the user.
 The fare includes:
@@ -65,7 +66,7 @@ Prompts :Unafika wapi Mkubwa? Kilometer ngapi?: (2)the user input
 - Twende! Boda iko ready!
 
 
-## Challenge 3: Transaction Fee Estimator
+## Transaction Fee Estimator
 
 This challenge involved creating a program to estimate transaction fees when sending money. The transaction fee is calculated as 15% of the amount the user intends to send. However, certain conditions are applied:
 - If the calculated fee is less than Ksh.10, it is set to Ksh.10.
@@ -125,6 +126,14 @@ Once the page loads, you will be prompted for input , starting with the Chai Cal
 - All results are displayed in the browser console.
 
 Make sure the Console is open, or you won't see any output after entering the prompts.
+
+
+## Technologies Used
+
+- HTML – Used to create the base structure of the webpage (index.html).
+- JavaScript – Handles logic, prompts, calculations, and console output for each challenge. 
+- Browser Developer Console – Used to view prompts and output. This is where all interaction happens.
+- VS Code + Live Server Extension  – Used for development and to run the project locally in the browser.
 
 ## Author
 

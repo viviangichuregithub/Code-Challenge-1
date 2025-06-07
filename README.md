@@ -30,16 +30,15 @@ the console.
 - Outputs measurements in a friendly format which is a mixture of English and Kiswahili phases.
 
 **Example Output:**
-prompts : Karibu! How many cups of Tea would you like to make? (3)the user input
+Prompts : Karibu! How many cups of Tea would you like to make? (3)the user input
 
-To make 3 cups of Chai, unahitaji:
-600 ml of water.
-150 ml of milk.
-3 tablespoons of majani chai.
-6 teaspoons of sugar.
+- To make 3 cups of Chai, unahitaji:
+- 600 ml of water.
+- 150 ml of milk.
+- 3 tablespoons of majani chai.
+- 6 teaspoons of sugar.
 
-Karibu chai
-
+- Karibu chai
 
 
 ## Challenge 2: Boda Fare Calculator
@@ -56,14 +55,14 @@ An additional Ksh.15 per kilometer traveled.
 
 **Example Output:**
 
-- prompts :Unafika wapi Mkubwa? Kilometer ngapi?: (2)the user input
+Prompts :Unafika wapi Mkubwa? Kilometer ngapi?: (2)the user input
 
-Umeamua kufika uko? Hiyo ni 2 Kilometer!  
-Kukalia boda ni 50 bob!  
-Kutoka hapa hadi huko ni ksh30 ,coz tunalipisha 15 bob per every Kilometer  
-Bill yote inakuja ksh80
+- Umeamua kufika uko? Hiyo ni 2 Kilometer!  
+- Kukalia boda ni 50 bob!  
+- Kutoka hapa hadi huko ni ksh30 ,coz tunalipisha 15 bob per every Kilometer  
+- Bill yote inakuja ksh80
 
-Twende! Boda iko ready!
+- Twende! Boda iko ready!
 
 
 ## Challenge 3: Transaction Fee Estimator
@@ -76,45 +75,52 @@ This challenge involved creating a program to estimate transaction fees when sen
 
 The program prompts the user to input the amount they wish to send, then displays the original amount, the transaction fee, and the total amount required to complete the transaction.
 
-**Example Output:**
+**Example Output 1: Where transaction fee is less than ksh.10**
 
-- prompts : Unafika wapi Mkubwa? Kilometer ngapi?: (20)the user input
+Prompts : Unafika wapi Mkubwa? Kilometer ngapi?: (20)the user input
 
-Amount you want to send is : ksh.20  
-The Transaction fee is : ksh.10  
-The total amount needed is : ksh.30  
+- Amount you want to send is : ksh.20  
+- The Transaction fee is : ksh.10  
+- The total amount needed is : ksh.30  
 
-Send Money Securely!
+- Send Money Securely!
 
+**Example Output 2:Where transaction fee is more > ksh.10 < sh.70**
 
-- prompts : Unafika wapi Mkubwa? Kilometer ngapi?: (200)the user input
+Prompts : Unafika wapi Mkubwa? Kilometer ngapi?: (200)the user input
  
-Amount you want to send is : ksh.200  
-The Transaction fee is : ksh.30  
-The total amount needed is : ksh.230  
+- Amount you want to send is : ksh.200  
+- The Transaction fee is : ksh.30  
+- The total amount needed is : ksh.230  
 
-Send Money Securely!
+- Send Money Securely!
 
-- prompts : Unafika wapi Mkubwa? Kilometer ngapi?: (1000)the user input
+**Example Output 3: Where transaction fee is more than ksh.70** 
 
-Amount you want to send is : ksh.1000  
-The Transaction fee is : ksh.70  
-The total amount needed is : ksh.1070  
+Prompts : Unafika wapi Mkubwa? Kilometer ngapi?: (1000)the user input
 
-Send Money Securely!
+- Amount you want to send is : ksh.1000  
+- The Transaction fee is : ksh.70  
+- The total amount needed is : ksh.1070  
+
+- Send Money Securely!
 
 ## Project Setup
+
 This project is a collection of JavaScript logic challenges that run automatically in your browser.
 
 **How to Run**
 Open index.html
+
 - You can open the file directly in your browser, or
 - Use Live Server like in VS Code you will click "Go Live".
 
 **Automatic Flow**
+
 Once the page loads, you will be prompted for input , starting with the Chai Calculator, followed by the Boda Fare Estimator, and finally the Mobile Money Fee Estimator.
 
 **View the Output**
+
 - Press F12 or right-click the page click Inspect then go to the Console tab.
 - All results are displayed in the browser console.
 

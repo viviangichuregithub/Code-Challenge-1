@@ -6,11 +6,11 @@ function calculateChaiIngredients(numberOfChaiCups) {
 
 //this is what will display the results in the console
 console.log(`To make ${numberOfChaiCups} cups of Chai, unahitaji:`);
-    console.log(`${water} ml of water`);
+    console.log(`\n${water} ml of water`);
     console.log(`${milk} ml of milk`);
     console.log(`${majani} tablespoons of majani chai`);
     console.log(`${sukari} teaspoons of sugar`);
-    console.log(`\nKaribu chai`);// /n is used to add a new line before the next message
+    console.log(`Karibu chai`);// /n is used to add a new line before the next message
     }
 //prompts the user to enter the number of cups they want to make
 const chaiCups = Number(prompt("Karibu! How many cups of Tea would you like to make?"));

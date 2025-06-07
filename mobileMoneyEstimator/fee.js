@@ -9,9 +9,9 @@ function estimateTransactionFee(moneyToBeSent){
     const totalAmountNeeded = moneyToBeSent + transactionFee;
 // Displaying the results
     console.log(`Amount you want to send is : ksh.${moneyToBeSent}`); 
-    console.log(`The Transaction fee is : ksh.${transactionFee}`);
+    console.log(`\nThe Transaction fee is : ksh.${transactionFee}`);
     console.log(`The total amount needed is : ksh.${moneyToBeSent + transactionFee}`);
-    console.log("\nSend Money Securely!");
+    console.log("Send Money Securely!");
 }
 //calling the function
 const moneyToBeSent = (Number(prompt("Enter the amount you want to send: ")));

@@ -1,5 +1,5 @@
 function estimateTransactionFee(moneyToBeSent){
-    let transactionFee = 0.15 * moneyToBeSent;
+    let transactionFee = 0.015 * moneyToBeSent;
     if (transactionFee < 10 ) {
         transactionFee= 10;//if the transaction fee is less than 10, set it to 10
     }
